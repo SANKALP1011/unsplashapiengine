@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "../src/Styles/index.css";
 import "../src/Styles/componenst/Card.css";
+import "../src/Styles/componenst/SearchForm.css";
+import "../src/Styles/componenst/CardModal.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,8 +1,7 @@
 .Card{
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin: 10% 2% 2% 10%;
     text-align: center;
-    align-items: center;
-    align-content: center;
+    border-radius: 10px;
 }

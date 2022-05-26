@@ -1,0 +1,29 @@
+.modal__backdrop {
+    background: white;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    margin: 10% auto;
+}
+
+.modal__container {
+	background: #fff;
+	border-radius: 15px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 50%px;
+}
+
+.modal__title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
