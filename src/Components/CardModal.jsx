@@ -14,6 +14,9 @@ export const CardModal = ({setIsModalVisible , Name , Likes , Desciption , id })
         <p>
           {Desciption}
 				</p>
+        <p>
+          {id}
+        </p>
         <button onClick={()=>{setIsModalVisible(false)}}>X</button>
         </div>
         </div>
