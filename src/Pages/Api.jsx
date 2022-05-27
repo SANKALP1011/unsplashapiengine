@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState} from "react";
 import  axios  from "axios";
 import CardModal from "../Components/CardModal";
@@ -17,7 +17,7 @@ export const Api = () =>{
       console.log(response.data.results);
    })
   }
-
+  
  return <>
     <div className="SearchBar">
     <input type="text" value={image} placeholder="Search your image" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"  onChange={(e)=>{setImage(e.target.value)}}/>
