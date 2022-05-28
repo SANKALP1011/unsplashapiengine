@@ -3,7 +3,6 @@
 	bottom: 0;
 	left: 0;
 	overflow: auto;
-	position: fixed;
 	right: 0;
 	top: 0;
 	z-index: 1;
@@ -19,7 +18,7 @@
 	max-width: 100%;
 	margin: 50px auto;
 	padding: 15px;
-	width: 50%px;
+	width: 50%;
 }
 
 .modal__title {
